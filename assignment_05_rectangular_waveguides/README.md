@@ -2,7 +2,7 @@
 
 This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 5**, focused on how **TE and TM modes** propagate in an **air-filled rectangular waveguide**, including cutoff behavior, dispersion, field distributions, and power flow.
 
-## What this assignment covers (high level)
+## What this assignment covers
 - Identifying **which waveguide modes propagate** below a specified frequency limit by comparing cutoff frequencies
 - Generating and interpreting **dispersion curves** (how propagation changes with frequency for each mode)
 - Verifying the **dominant mode (TE10)** through simulated field patterns and power flow
