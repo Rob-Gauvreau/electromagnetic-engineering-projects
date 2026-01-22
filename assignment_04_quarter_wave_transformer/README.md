@@ -1,16 +1,16 @@
-# ELG3106 — Assignment 3: Microstrip Line Impedance Modeling (Fall 2025)
+# ELG3106 — Assignment 4: Quarter-Wave Transformer Matching (Fall 2025)
 
-This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 3**, focused on modeling a **lossless microstrip transmission line** and evaluating how well common curve-fit formulas match simulation results for different geometries and substrate permittivities. :contentReference[oaicite:0]{index=0}
+This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 4**, focused on designing a **quarter-wave transformer matching network** to match a complex load to a 50 Ω line and eliminate reflections. :contentReference[oaicite:1]{index=1}
 
-## What this assignment covers 
-- Forward modeling of **characteristic impedance vs. geometry** by sweeping the width-to-height ratio (w/h)
-- Comparing calculated impedance to a **virtual microstrip simulation tool** at specific geometry checkpoints
-- Inverse design: estimating required **w/h from a target impedance** using two approximation regimes
-- Quantifying model accuracy using **relative error plots** and identifying where each approximation is valid
+## What this assignment covers
+- Matching a complex load by first transforming it to a **purely real impedance** at specific locations along the line
+- Designing a **quarter-wave transformer** to achieve a match to the feedline
+- Identifying **two valid matching solutions** (different placement/transformer impedance choices)
+- Verifying the design using **Smith chart construction** and the **Module 2.7 tutorial/design app**
 
 ## What’s included
-- **Report (PDF):** Full write-up with workflow, results, and discussion
-- **Flow diagrams:** Computation pipeline for the forward and inverse comparisons
-- **Code:** Script(s) used to generate calculated values and relative-difference plots
-- **Virtual simulation screenshots:** Verification points for multiple w/h values and permittivities
-- **Results + discussion:** Interpretation of error trends (including where errors grow and why)
+- **Report (PDF):** Full write-up including workflow, results, and discussion :contentReference[oaicite:2]{index=2}
+- **Algorithm / flow:** Step-by-step approach (normalize → rotate to real axis → compute matching section → verify)
+- **Smith chart work:** Annotated chart showing both solutions
+- **Virtual simulations:** Screenshots and output data confirming near-zero reflection (minor mismatch comes from rounding)
+- **Results + discussion:** Interpretation of why two solutions exist and how the transformer achieves the match
