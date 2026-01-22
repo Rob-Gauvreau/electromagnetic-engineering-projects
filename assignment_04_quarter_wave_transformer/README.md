@@ -1,6 +1,6 @@
 # ELG3106 — Assignment 4: Quarter-Wave Transformer Matching (Fall 2025)
 
-This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 4**, focused on designing a **quarter-wave transformer matching network** to match a complex load to a 50 Ω line and eliminate reflections. :contentReference[oaicite:1]{index=1}
+This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 4**, focused on designing a **quarter-wave transformer matching network** to match a complex load to a 50 Ω line and eliminate reflections. 
 
 ## What this assignment covers
 - Matching a complex load by first transforming it to a **purely real impedance** at specific locations along the line
