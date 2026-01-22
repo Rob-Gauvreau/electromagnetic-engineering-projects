@@ -1,6 +1,6 @@
 # ELG3106 — Assignment 3: Microstrip Line Impedance Modeling (Fall 2025)
 
-This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 3**, focused on modeling a **lossless microstrip transmission line** and evaluating how well common curve-fit formulas match simulation results for different geometries and substrate permittivities. :contentReference[oaicite:0]{index=0}
+This folder contains my work for **ELG3106 (Electromagnetic Engineering) — Assignment 3**, focused on modeling a **lossless microstrip transmission line** and evaluating how well common curve-fit formulas match simulation results for different geometries and substrate permittivities.
 
 ## What this assignment covers
 - Forward modeling of **characteristic impedance vs. geometry** by sweeping the width-to-height ratio (w/h)
